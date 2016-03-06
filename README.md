@@ -5,7 +5,7 @@
 BigNumber.js is a light javascript library for node.js and the browser. It supports arithmetic operations on Big Integers.
 
 It is build with performance in mind, uses the fastest algorithms and supports all basic arithmetic operations
-(+, -, *, /, %, ^, abs). Works with both positive and negative big integers.
+(+, -, *, /, %, ^, abs, sqrt). Works with both positive and negative big integers.
 
 : (http://alexbardas.github.io/bignumber.js/)
 
@@ -35,7 +35,7 @@ Usage:
 
 ### API
 
-Supported methods: `add/plus`, `minus/subtract`, `multiply/mult`, `divide/div`, `power/pow`, `mod`, `equals`,
+Supported methods: `add/plus`, `minus/subtract`, `multiply/mult`, `divide/div`, `power/pow`, `sqrt`, `mod`, `equals`,
 `lt`, `lte`, `gt`, `gte`, `isZero`, `abs`
 
 ###### Addition
@@ -71,4 +71,9 @@ Supported methods: `add/plus`, `minus/subtract`, `multiply/mult`, `divide/div`, 
 ```javascript
 	BigNumber(2).power(10); // or
 	BigNumber(2).pow(10);
+```
+
+###### Square root
+```javascript
+	BigNumber(2).sqrt(10);
 ```
