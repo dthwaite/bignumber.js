@@ -240,6 +240,18 @@ describe('BigNumber.js', function () {
         });
     });
 
+    describe('#sqrt()', function () {
+        it('should square root numbers', function () {
+            BigNumber(0).sqrt().val().should.equal("0");
+            BigNumber(1).sqrt().val().should.equal("1");
+            BigNumber(9).sqrt().val().should.equal("3");
+            BigNumber(58583716).sqrt().val().should.equal("7654");
+            BigNumber(2318785835536).sqrt().val().should.equal("1522756");
+            BigNumber(1234567890).sqrt().val().should.equal("35136");
+            BigNumber(123123).sqrt().val().should.equal("350");
+        });
+    });
+
     describe('#mod()', function () {
         it('should return the remainder of 2 numbers division', function () {
             BigNumber(7321).mod(153).val().should.equal("130");
@@ -307,6 +319,8 @@ describe('BigNumber.js', function () {
             x.divide(b).val().should.equal("503899878431396");
             x = BigNumber(a);
             x.divide(b).rest.val().should.equal("13662369696833870468897163678348569097398678349966371836926");
+            x = BigNumber(a);
+            x.sqrt().val().should.equal("6573947816596075831356639591907217364");
         });
     });
 });
