@@ -75,5 +75,5 @@ Supported methods: `add/plus`, `minus/subtract`, `multiply/mult`, `divide/div`, 
 
 ###### Square root
 ```javascript
-	BigNumber(2).sqrt(10);
+	BigNumber(64).sqrt();
 ```
