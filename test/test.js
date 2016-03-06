@@ -242,7 +242,7 @@ describe('BigNumber.js', function () {
 
     describe('#sqrt()', function () {
         it('should square root numbers', function () {
-            BigNumber(5).sqrt(-500).val().should.equal("Invalid operation - Square root of a negative number");
+            BigNumber(-500).sqrt().val().should.equal("Invalid operation - Square root of a negative number");
             BigNumber(0).sqrt().val().should.equal("0");
             BigNumber(1).sqrt().val().should.equal("1");
             BigNumber(9).sqrt().val().should.equal("3");
