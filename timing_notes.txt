@@ -1,0 +1,25 @@
+Timings for original library
+
+Timings for large numbers
+Takes 6.83 seconds to complete 1000 divisions
+Takes 10.739 seconds to complete 500000 additions
+Takes 6.497 seconds to complete 100000 subtractions
+Takes 8.238 seconds to complete 25000 multiplications
+Timings for small numbers (esp. small divisor)
+Takes 8.307 seconds to complete 1000 divisions
+Takes 0.975 seconds to complete 500000 additions
+Takes 0.546 seconds to complete 100000 subtractions
+Takes 0.105 seconds to complete 25000 multiplications
+
+Timings after steroid injection
+
+Timings for large numbers
+Takes 0.056 seconds to complete 1000 divisions
+Takes 0.354 seconds to complete 500000 additions
+Takes 0.128 seconds to complete 100000 subtractions
+Takes 0.262 seconds to complete 25000 multiplications
+Timings for small numbers (esp. small divisor)
+Takes 0.263 seconds to complete 1000 divisions
+Takes 0.189 seconds to complete 500000 additions
+Takes 0.107 seconds to complete 100000 subtractions
+Takes 0.018 seconds to complete 25000 multiplications
