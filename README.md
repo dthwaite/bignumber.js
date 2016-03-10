@@ -1,13 +1,22 @@
 ## BigNumber.js
 
-[![Build Status](https://secure.travis-ci.org/alexbardas/bignumber.js.png)](http://travis-ci.org/alexbardas/bignumber.js)
+[![Build Status](https://secure.travis-ci.org/dthwaite/bignumber.js.png)](http://travis-ci.org/dthwaite/bignumber.js)
 
 BigNumber.js is a light javascript library for node.js and the browser. It supports arithmetic operations on Big Integers.
 
 It is build with performance in mind, uses the fastest algorithms and supports all basic arithmetic operations
 (+, -, *, /, %, ^, abs, sqrt). Works with both positive and negative big integers.
 
+The original version should be credited to:
+
 : (http://alexbardas.github.io/bignumber.js/)
+
+From which this is a heavily modified fork. This is a simple and easy to understand library (Thank you, Alex!)
+though it suffered performance-wise which I have resolved the best I can. It now performs (almost) as well
+as another, much more comprehsive library: http://mikemcl.github.io/bignumber.js. Faster, even, for smaller
+numbers as I've put in additional optimisations in such cases.
+
+However, for large divisions Mike's is still slightly faster and I can't work out how to beat him! Oh well.
 
 Install:
 npm install

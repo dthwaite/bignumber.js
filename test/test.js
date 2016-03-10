@@ -7,6 +7,7 @@ BigNumber = require('../');
 describe('BigNumber.js', function () {
     describe('#initialization', function () {
         it('should create a big number from a number', function () {
+            BigNumber(7321).divide(153).val().should.equal("47");
             BigNumber(517).val().should.equal("517");
             BigNumber(-517).val().should.equal("-517");
             BigNumber(BigNumber(517)).val().should.equal("517");

@@ -23,3 +23,16 @@ Takes 0.263 seconds to complete 1000 divisions
 Takes 0.189 seconds to complete 500000 additions
 Takes 0.107 seconds to complete 100000 subtractions
 Takes 0.018 seconds to complete 25000 multiplications
+
+Timings for other library - bignumber.js
+
+Timings for large numbers
+Takes 0.054 seconds to complete 1000 divisions
+Takes 0.213 seconds to complete 500000 additions
+Takes 0.046 seconds to complete 100000 subtractions
+Takes 0.105 seconds to complete 25000 multiplications
+Timings for small numbers
+Takes 0.122 seconds to complete 1000 divisions
+Takes 0.146 seconds to complete 500000 additions
+Takes 0.029 seconds to complete 100000 subtractions
+Takes 0.012 seconds to complete 25000 multiplications
