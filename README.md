@@ -12,11 +12,11 @@ The original version should be credited to:
 : (http://alexbardas.github.io/bignumber.js/)
 
 From which this is a heavily modified fork. This is a simple and easy to understand library (Thank you, Alex!)
-though it suffered performance-wise which I have resolved the best I can. It now performs (almost) as well
-as another, much more comprehsive library: http://mikemcl.github.io/bignumber.js. Faster, even, for smaller
-numbers as I've put in additional optimisations in such cases.
+though it suffered performance-wise which I have resolved the best I can. It now performs as well
+as another, much more comprehsive library: http://mikemcl.github.io/bignumber.js. 
 
-However, for large divisions Mike's is still slightly faster and I can't work out how to beat him! Oh well.
+I focussed on the speed of division for large numbers and finally came up with an algorithm that is about 1,000
+times fater than what Alex had (!), and is now at least 5 times faster than Mike's.
 
 Install:
 npm install
