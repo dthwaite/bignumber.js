@@ -16,7 +16,7 @@ though it suffered performance-wise which I have resolved the best I can. It now
 as another, much more comprehsive library: http://mikemcl.github.io/bignumber.js. 
 
 I focussed on the speed of division for large numbers and finally came up with an algorithm that is about 1,000
-times fater than what Alex had (!), and is now at least 5 times faster than Mike's.
+times faster than what Alex had (!), and is now at least 5 times faster than Mike's.
 
 Install:
 npm install
